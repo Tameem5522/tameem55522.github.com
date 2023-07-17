@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>GradeGossip</title>
+    <title>GradeGossip - Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to GradeGossip!</h1>
-    <p>GradeGossip is a website where students can share their school experiences.</p>
+    <header>
+        <h1>Welcome to GradeGossip!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="teachers.html">Teacher Reviews</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About GradeGossip</h2>
+            <p>GradeGossip is a platform where students can share their school experiences, write blog posts, and review their teachers.</p>
+        </section>
+        
+        <section>
+            <h2>Latest Posts</h2>
+            <!-- Here, you would use JavaScript to dynamically load and display your latest blog posts -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>Copyright &copy; 2023 GradeGossip</p>
+    </footer>
 </body>
 </html>
-# GradeGossip
-
-## Description
-
-GradeGossip is a website where students can share their school experiences, write blog posts, review teachers, and more!
-
-## Installation
-
-1. Clone the repository: `git clone https://github.com/yourusername/GradeGossip.git`
-2. Navigate to the project directory: `cd GradeGossip`
-3. Open the `index.html` file in your web browser to view the website.
-
-## Usage
-
-After opening `index.html` in your web browser, you can navigate through the website using the links provided.
-
-## Contributing
-
-We welcome contributions from the community! Please read our [contributing guidelines](CONTRIBUTING.md) before making a contribution.
-
-## License
-
-This project is licensed under the terms of the [MIT License](LICENSE.md).
